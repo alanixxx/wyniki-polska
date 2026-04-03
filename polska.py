@@ -22,10 +22,10 @@ def formatuj_wynik(wynik_str, kolor):
         return f'<span class="karne-info">{c[0]}</span><span style="color: {kolor};">{c[1]} {c[2]} {c[3]}</span><span class="karne-info">{c[4]}</span>'
     return f'<span style="color: {kolor};">{wynik_str}</span>'
 
-# PEŁNA LISTA 21 MECZÓW ZGODNIE ZE SCREENEM
+# LISTA MECZÓW Z POPRAWKĄ NA "BARAŻE"
 mecze = [
-    {"o": "Szwecja", "f": "https://flagcdn.com/w160/se.png", "w": "3 : 2", "d": "31.03.2026", "s": "L", "miejsce": "wyjazd", "t": "MŚ - Kwalifikacje (Awans)", "wazne": True},
-    {"o": "Albania", "f": "https://flagcdn.com/w160/al.png", "w": "2 : 1", "d": "26.03.2026", "s": "W", "miejsce": "dom", "t": "MŚ - Kwalifikacje (Awans)", "wazne": True},
+    {"o": "Szwecja", "f": "https://flagcdn.com/w160/se.png", "w": "3 : 2", "d": "31.03.2026", "s": "L", "miejsce": "wyjazd", "t": "MŚ - Kwalifikacje (Baraże)", "wazne": True},
+    {"o": "Albania", "f": "https://flagcdn.com/w160/al.png", "w": "2 : 1", "d": "26.03.2026", "s": "W", "miejsce": "dom", "t": "MŚ - Kwalifikacje (Baraże)", "wazne": True},
     {"o": "Malta", "f": "https://flagcdn.com/w160/mt.png", "w": "2 : 3", "d": "17.11.2025", "s": "W", "miejsce": "wyjazd", "t": "MŚ - Kwalifikacje", "wazne": False},
     {"o": "Holandia", "f": "https://flagcdn.com/w160/nl.png", "w": "1 : 1", "d": "14.11.2025", "s": "D", "miejsce": "dom", "t": "MŚ - Kwalifikacje", "wazne": False},
     {"o": "Litwa", "f": "https://flagcdn.com/w160/lt.png", "w": "0 : 2", "d": "12.10.2025", "s": "W", "miejsce": "wyjazd", "t": "MŚ - Kwalifikacje", "wazne": False},
@@ -47,8 +47,8 @@ mecze = [
     {"o": "Holandia", "f": "https://flagcdn.com/w160/nl.png", "w": "1 : 2", "d": "16.06.2024", "s": "L", "miejsce": "dom", "t": "EURO 2024", "wazne": True},
     {"o": "Turcja", "f": "https://flagcdn.com/w160/tr.png", "w": "2 : 1", "d": "10.06.2024", "s": "W", "miejsce": "dom", "t": "Mecz towarzyski", "wazne": False},
     {"o": "Ukraina", "f": "https://flagcdn.com/w160/ua.png", "w": "3 : 1", "d": "07.06.2024", "s": "W", "miejsce": "dom", "t": "Mecz towarzyski", "wazne": False},
-    {"o": "Walia", "f": "https://flagcdn.com/w160/gb-wls.png", "w": "(4) 0 : 0 (5)", "d": "26.03.2024", "s": "W", "miejsce": "wyjazd", "t": "Eliminacje EURO - Baraż", "wazne": True},
-    {"o": "Estonia", "f": "https://flagcdn.com/w160/ee.png", "w": "5 : 1", "d": "21.03.2024", "s": "W", "miejsce": "dom", "t": "Eliminacje EURO - Baraż", "wazne": True},
+    {"o": "Walia", "f": "https://flagcdn.com/w160/gb-wls.png", "w": "(4) 0 : 0 (5)", "d": "26.03.2024", "s": "W", "miejsce": "wyjazd", "t": "Eliminacje EURO - Baraże", "wazne": True},
+    {"o": "Estonia", "f": "https://flagcdn.com/w160/ee.png", "w": "5 : 1", "d": "21.03.2024", "s": "W", "miejsce": "dom", "t": "Eliminacje EURO - Baraże", "wazne": True},
     {"o": "Łotwa", "f": "https://flagcdn.com/w160/lv.png", "w": "2 : 0", "d": "21.11.2023", "s": "W", "miejsce": "dom", "t": "Mecz towarzyski", "wazne": False},
     {"o": "Czechy", "f": "https://flagcdn.com/w160/cz.png", "w": "1 : 1", "d": "17.11.2023", "s": "D", "miejsce": "dom", "t": "Eliminacje EURO", "wazne": False},
     {"o": "Mołdawia", "f": "https://flagcdn.com/w160/md.png", "w": "1 : 1", "d": "15.10.2023", "s": "D", "miejsce": "dom", "t": "Eliminacje EURO", "wazne": False}
