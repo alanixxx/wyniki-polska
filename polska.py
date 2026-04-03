@@ -59,7 +59,7 @@ mecze = [
     {"o": "Czechy", "f": "https://flagcdn.com/w160/cz.png", "w": "3 : 1", "d": "24.03.2023", "s": "L", "miejsce": "wyjazd", "t": "EURO - Kwalifikacje", "wazne": False},
     
     # --- Mistrzostwa Świata 2022 (Katar) ---
-    {"o": "Francja", "f": "https://flagcdn.com/w160/fr.png", "w": "3 : 1", "d": "04.12.2022", "s": "L", "miejsce": "wyjazd", "t": "Mistrzostwa Świata - Play Offy", "wazne": True},
+    {"o": "Francja", "f": "https://flagcdn.com/w160/fr.png", "w": "3 : 1", "d": "04.12.2022", "s": "L", "miejsce": "wyjazd", "t": "Mistrzostwa Świata - 1/8 Finału", "wazne": True},
     {"o": "Argentyna", "f": "https://flagcdn.com/w160/ar.png", "w": "0 : 2", "d": "30.11.2022", "s": "L", "miejsce": "dom", "t": "Mistrzostwa Świata", "wazne": True},
     {"o": "Arabia Saudyjska", "f": "https://flagcdn.com/w160/sa.png", "w": "2 : 0", "d": "26.11.2022", "s": "W", "miejsce": "dom", "t": "Mistrzostwa Świata", "wazne": True},
     {"o": "Meksyk", "f": "https://flagcdn.com/w160/mx.png", "w": "0 : 0", "d": "22.11.2022", "s": "D", "miejsce": "wyjazd", "t": "Mistrzostwa Świata", "wazne": True}
